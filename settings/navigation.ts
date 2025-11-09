@@ -6,12 +6,12 @@ export const Navigations = [
     href: `/docs${PageRoutes[0].href}`,
   },
   {
-    title: "Rubix",
-    href: "https://rubixstudios.com.au",
+    title: "Medicaps",
+    href: "https://www.medicaps.ac.in/",
     external: true,
   },
 ]
 
 export const GitHubLink = {
-  href: "https://github.com/t4zn/mu",
+  href: "",
 }

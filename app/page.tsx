@@ -3,6 +3,7 @@ import Image from "next/image"
 
 import { PageRoutes } from "@/lib/pageroutes"
 import { buttonVariants } from "@/components/ui/button"
+import Search from "@/components/navigation/search"
 
 export default function Home() {
   return (
@@ -21,6 +22,10 @@ export default function Home() {
         Find notes, PYQs, cheat sheets, and study materials for Medicaps University. 
         Your comprehensive resource hub for academic success.
       </p>
+
+      <div className="mb-6 w-full max-w-md">
+        <Search />
+      </div>
 
       <div className="flex items-center gap-5">
         <Link

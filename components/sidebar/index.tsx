@@ -18,12 +18,12 @@ import { PageMenu } from "@/components/sidebar/pagemenu"
 export function Sidebar() {
   return (
     <aside
-      className="sticky top-26 hidden h-[100vh] min-w-[230px] flex-[1] flex-col overflow-y-auto md:flex"
+      className="sticky top-16 hidden h-[calc(100vh-4rem)] min-w-[230px] flex-[1] flex-col overflow-y-auto md:flex"
       aria-label="Page navigation"
     >
-      <ScrollArea>
+      <div className="p-4">
         <PageMenu />
-      </ScrollArea>
+      </div>
     </aside>
   )
 }
