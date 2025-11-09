@@ -2,7 +2,7 @@ import { PageRoutes } from "@/lib/pageroutes"
 
 export const Navigations = [
   {
-    title: "Docs",
+    title: "🏠",
     href: `/docs${PageRoutes[0].href}`,
   },
   {

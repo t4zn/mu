@@ -1,20 +1,32 @@
 export const Documents = [
     {
-        heading: "Introduction",
-        title: "Basic Setup",
+        heading: "Notes",
+        title: "Program",
         href: "/basic-setup",
         items: [
             {
-                title: "Installation",
-                href: "/installation",
+                title: "B.Tech",
+                href: "/btech",
             },
             {
-                title: "Setup",
-                href: "/setup",
+                title: "B.Sc",
+                href: "/bsc",
             },
             {
-                title: "Changelog",
-                href: "/changelog",
+                title: "BBA",
+                href: "/bba",
+            },
+            {
+                title: "B.Com",
+                href: "/bcom",
+            },
+            {
+                title: "M.Tech",
+                href: "/mtech",
+            },
+            {
+                title: "MBA",
+                href: "/mba",
             },
         ],
     },
@@ -22,29 +34,33 @@ export const Documents = [
         spacer: true,
     },
     {
-        title: "Navigation",
-        href: "/navigation",
-        heading: "Documents",
-    },
-    {
-        title: "Structure",
+        title: "Program",
         href: "/structure",
+        heading: "PYQs",
         items: [
             {
-                title: "Deep",
-                href: "/deep",
-                items: [
-                    {
-                        title: "Deeper",
-                        href: "/deeper",
-                        items: [
-                            {
-                                title: "Even deeper",
-                                href: "/even-deeper",
-                            },
-                        ],
-                    },
-                ],
+                title: "B.Tech",
+                href: "/btech",
+            },
+            {
+                title: "B.Sc",
+                href: "/bsc",
+            },
+            {
+                title: "BBA",
+                href: "/bba",
+            },
+            {
+                title: "B.Com",
+                href: "/bcom",
+            },
+            {
+                title: "M.Tech",
+                href: "/mtech",
+            },
+            {
+                title: "MBA",
+                href: "/mba",
             },
         ],
     },
@@ -52,45 +68,33 @@ export const Documents = [
         spacer: true,
     },
     {
-        title: "Markdown",
+        title: "Program",
         href: "/markdown",
-        heading: "Components",
+        heading: "Formula Sheet",
         items: [
             {
-                title: "Cards",
-                href: "/cards",
+                title: "B.Tech",
+                href: "/btech",
             },
             {
-                title: "Diagrams",
-                href: "/diagrams",
+                title: "B.Sc",
+                href: "/bsc",
             },
             {
-                title: "Filetree",
-                href: "/filetree",
+                title: "BBA",
+                href: "/bba",
             },
             {
-                title: "Lists",
-                href: "/lists",
+                title: "B.Com",
+                href: "/bcom",
             },
             {
-                title: "Maths",
-                href: "/maths",
+                title: "M.Tech",
+                href: "/mtech",
             },
             {
-                title: "Notes",
-                href: "/notes",
-            },
-            {
-                title: "Steps",
-                href: "/steps",
-            },
-            {
-                title: "Table",
-                href: "/table",
-            },
-            {
-                title: "Tabs",
-                href: "/tabs",
+                title: "MBA",
+                href: "/mba",
             },
         ],
     },

@@ -23,7 +23,7 @@ export default function SubLink(
   props: Paths & { level: number; isSheet: boolean }
 ) {
   const path = usePathname()
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(props.title === "Program")
 
   useEffect(() => {
     if (

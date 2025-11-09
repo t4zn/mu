@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { GitHubLink, Navigations } from "@/settings/navigation"
-import { LuArrowUpRight, LuGithub } from "react-icons/lu"
+import { LuArrowUpRight, LuGithub, LuHouse } from "react-icons/lu"
 
 import { buttonVariants } from "@/components/ui/button"
 import { SheetClose } from "@/components/ui/sheet"
@@ -61,7 +61,7 @@ export function NavMenu({ isSheet = false }) {
             target={item.external ? "_blank" : undefined}
             rel={item.external ? "noopener noreferrer" : undefined}
           >
-            {item.title}{" "}
+            {item.title === "🏠" ? <LuHouse className="h-4 w-4" /> : item.title}{" "}
             {item.external && (
               <LuArrowUpRight className="h-3 w-3 align-super" strokeWidth={3} />
             )}
