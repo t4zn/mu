@@ -13,6 +13,56 @@ export const Documents: Paths[] = [
           {
             title: "1st Year",
             href: "/1st-year",
+            items: [
+              {
+                title: "C Programming",
+                href: "/c-programming",
+              },
+              {
+                title: "Chemistry",
+                href: "/chemistry",
+              },
+              {
+                title: "Civil",
+                href: "/civil",
+              },
+              {
+                title: "Communication Skills",
+                href: "/communication-skills",
+              },
+              {
+                title: "Electrical",
+                href: "/electrical",
+              },
+              {
+                title: "Electronics",
+                href: "/electronics",
+              },
+              {
+                title: "Graphics",
+                href: "/graphics",
+              },
+              {
+                title: "Maths I",
+                href: "/maths-1",
+              },
+              {
+                title: "Maths II",
+                href: "/maths-2",
+              },
+              {
+                title: "Mechanical",
+                href: "/mechanical",
+              },
+              {
+                title: "Physics",
+                href: "/physics",
+              },
+              {
+                title: "Workshop",
+                href: "/workshop",
+              },
+            ],
           },
           {
             title: "2nd Year",
@@ -131,6 +181,56 @@ export const Documents: Paths[] = [
           {
             title: "1st Year",
             href: "/1st-year",
+            items: [
+              {
+                title: "C Programming",
+                href: "/c-programming",
+              },
+              {
+                title: "Chemistry",
+                href: "/chemistry",
+              },
+              {
+                title: "Civil",
+                href: "/civil",
+              },
+              {
+                title: "Communication Skills",
+                href: "/communication-skills",
+              },
+              {
+                title: "Electrical",
+                href: "/electrical",
+              },
+              {
+                title: "Electronics",
+                href: "/electronics",
+              },
+              {
+                title: "Graphics",
+                href: "/graphics",
+              },
+              {
+                title: "Maths I",
+                href: "/maths-1",
+              },
+              {
+                title: "Maths II",
+                href: "/maths-2",
+              },
+              {
+                title: "Mechanical",
+                href: "/mechanical",
+              },
+              {
+                title: "Physics",
+                href: "/physics",
+              },
+              {
+                title: "Workshop",
+                href: "/workshop",
+              },
+            ],
           },
           {
             title: "2nd Year",
@@ -249,6 +349,56 @@ export const Documents: Paths[] = [
           {
             title: "1st Year",
             href: "/1st-year",
+            items: [
+              {
+                title: "C Programming",
+                href: "/c-programming",
+              },
+              {
+                title: "Chemistry",
+                href: "/chemistry",
+              },
+              {
+                title: "Civil",
+                href: "/civil",
+              },
+              {
+                title: "Communication Skills",
+                href: "/communication-skills",
+              },
+              {
+                title: "Electrical",
+                href: "/electrical",
+              },
+              {
+                title: "Electronics",
+                href: "/electronics",
+              },
+              {
+                title: "Graphics",
+                href: "/graphics",
+              },
+              {
+                title: "Maths I",
+                href: "/maths-1",
+              },
+              {
+                title: "Maths II",
+                href: "/maths-2",
+              },
+              {
+                title: "Mechanical",
+                href: "/mechanical",
+              },
+              {
+                title: "Physics",
+                href: "/physics",
+              },
+              {
+                title: "Workshop",
+                href: "/workshop",
+              },
+            ],
           },
           {
             title: "2nd Year",
