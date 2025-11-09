@@ -1,25 +1,28 @@
-export const url = "https://rubix-documents.vercel.app"
+export const url = "https://medicaps-resources.vercel.app"
 export const siteicon = "/icon.png"
 
 export const gtm = "GTM-XXXXXXX"
 export const gtmconnected = true
 
-export const sitename = "Documents"
+export const sitename = "Medicaps Resources"
 export const description =
-  "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements."
+  "Find notes, PYQs (Previous Year Questions), cheat sheets, study materials, and academic resources for Medicaps University students. Your one-stop destination for exam preparation and course materials."
 export const keywords = [
-  "Next.js",
-  "documentation",
-  "Rubix Studios",
-  "open source",
-  "SEO",
+  "Medicaps University",
+  "study notes",
+  "PYQ",
+  "previous year questions",
+  "cheat sheets",
+  "exam preparation",
+  "academic resources",
+  "student materials",
 ]
 export const urlimage = "/images/og-image.png"
-export const imagealt = "Rubix Studios Documentation"
-export const twitterhandle = "@RubixStudios"
+export const imagealt = "Medicaps Resources"
+export const twitterhandle = "@t4zn"
 
-export const companyname = "Rubix Studios"
-export const companylink = "https://rubixstudios.com.au"
+export const companyname = "Medicaps Resources"
+export const companylink = "https://github.com/t4zn/mu"
 
 export const branding = true
 export const rightsidebar = true
